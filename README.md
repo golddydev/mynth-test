@@ -82,3 +82,17 @@ And run following command
 ```bash
 deno task test:withdraw -- ${Deposit Tx Hash}
 ```
+
+# Summary
+
+## Learning Experience
+
+I have learned how the Cardano's eUTXO model works with `datum`, `redeemer`, `script context` and what is the purpose of each `datum` and `redeemer`.
+
+I found these links very helpful.
+
+https://aiken-lang.org/fundamentals/eutxo
+
+https://aiken-lang.org/example--hello-world/end-to-end/lucid
+
+https://aiken-lang.org/example--vesting
